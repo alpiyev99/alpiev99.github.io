@@ -1,0 +1,53 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page35917813.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^chatgpt$ page35917813.html [NC]
+RewriteRule ^chatgpt/$ page35917813.html [NC]
+
+RewriteRule ^pay1$ page35937682.html [NC]
+RewriteRule ^pay1/$ page35937682.html [NC]
+
+RewriteRule ^blender$ page20601052.html [NC]
+RewriteRule ^blender/$ page20601052.html [NC]
+
+RewriteRule ^giveaway$ page20709162.html [NC]
+RewriteRule ^giveaway/$ page20709162.html [NC]
+
+RewriteRule ^pay2$ page35951405.html [NC]
+RewriteRule ^pay2/$ page35951405.html [NC]
+
+RewriteRule ^disclaimer$ page35948185.html [NC]
+RewriteRule ^disclaimer/$ page35948185.html [NC]
+
+RewriteRule ^policy$ page35948292.html [NC]
+RewriteRule ^policy/$ page35948292.html [NC]
+
+RewriteRule ^perchi$ page20290319.html [NC]
+RewriteRule ^perchi/$ page20290319.html [NC]
+
+RewriteRule ^shipping$ page20205861.html [NC]
+RewriteRule ^shipping/$ page20205861.html [NC]
+
+RewriteRule ^payments_info$ page20205639.html [NC]
+RewriteRule ^payments_info/$ page20205639.html [NC]
+
+RewriteRule ^footer$ page20205295.html [NC]
+RewriteRule ^footer/$ page20205295.html [NC]
+
+RewriteRule ^contact_info$ page20205090.html [NC]
+RewriteRule ^contact_info/$ page20205090.html [NC]
+
+RewriteRule ^thenx$ page19666760.html [NC]
+RewriteRule ^thenx/$ page19666760.html [NC]
+
+RewriteRule ^smart_watch$ page19753765.html [NC]
+RewriteRule ^smart_watch/$ page19753765.html [NC]
+
+
